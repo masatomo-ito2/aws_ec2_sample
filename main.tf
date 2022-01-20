@@ -34,5 +34,6 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
+    TTL  = 24
   }
 }
